@@ -1,1 +1,3 @@
-# Repository to manage my CV.
+# Curriculum Vitae
+
+Repository to manage my cv efficiently
