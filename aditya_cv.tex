@@ -1,0 +1,347 @@
+% !TeX spellcheck = en_US
+%-------------------------
+% ___CV FOR ACADEMICS___
+% Author : Aditya Wagh
+% File Name : aditya_cv.tex
+% Date Modified : 01/06/2019
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{latexsym}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames,x11names]{xcolor}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+%\usepackage{tfrupee}  % for rupee symbol (use \rupee~)
+%\usepackage{multicol} % for multi column in header
+\usepackage{xcolor}
+\usepackage{vwcol}
+\usepackage{ragged2e}  % for justifying text
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+%\usepackage[empty]{fullpage}
+%otherwise
+\usepackage[paper=a4paper,
+top=25.1mm,
+bottom=25.1mm,
+right=23.1mm,
+left=23.1mm
+]{geometry}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%\definecolor{varHeadingColor}{rgb}{0.0, 0.47, 0.75}
+%\definecolor{TUMOrange}{RGB}{231,115,38}
+
+
+
+
+
+%\colorlet{varHeadingColor}{MidnightBlue}
+\colorlet{varHeadingColor}{NavyBlue}
+%\colorlet{varHeadingColor}{ProcessBlue}
+%\colorlet{varHeadingColor}{Turquoise}
+%\colorlet{varHeadingColor}{TealBlue}
+%\colorlet{varHeadingColor}{Cerulean}
+%\colorlet{varHeadingColor}{DodgerBlue2}
+%\colorlet{varHeadingColor}{CornflowerBlue}
+%\colorlet{varHeadingColor}{DodgerBlue4}
+
+
+% Sections formatting
+\titleformat{\section}{ 
+	\vspace{-7pt}\scshape\raggedright\large \color{varHeadingColor}
+}{}{0em}{}[\color{varHeadingColor}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+	\item\small{
+		\textbf{#1}{: #2 \vspace{-5pt}}
+	}
+}
+
+\newcommand{\resumeHeader}[4]{
+	\begin{center}
+		{\color{varHeadingColor}
+			\textbf{\huge \uppercase{#1}}} \\
+		\vspace*{10pt}
+		\begin{vwcol}[widths={0.30,0.40,0.33},
+			justify=flush,rule=0pt] 
+			{{\color{varHeadingColor}Phone:} #2\\ \\}\hspace{0pt}{{\color{varHeadingColor}Email:} #3\\ }{{\color{varHeadingColor}Links:} #4}
+		\end{vwcol}
+		\vspace*{0pt}
+	\end{center}
+}
+
+\newcommand{\resumeSubheadingEducation}[4]{
+	\vspace{-1pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{\normalsize#1} & {\normalsize #2} \\
+		\textit{\small #3} & \textit{\small #4}\\
+		%		\textit{\small #5} \\
+		% 		\textit{\small#6} \\
+		% 		\textit{\small#7} \\
+		% 		\textit{\small#8} \\
+	\end{tabular*}
+}
+
+\newcommand{\resumeSubheading}[4]{
+	\vspace{-1pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{\normalsize #1} & {\normalsize #2} \\
+		\textit{\small#3} & \textit{\small #4} \\
+	\end{tabular*}
+	\smallskip \\
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-1pt}}
+\newcommand{\resumeSubItemOneArg}[1]{\item \small #1\vspace{-1pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemiii}{$\cdot$}
+
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+	\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize} \vspace*{-5pt}}
+	\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+	
+	%
+	%----------HEADING-----------------
+	\resumeHeader{\href{ad1tyawagh.github.io}{Aditya Wagh}}{+91 850 300 8530 }{\href{mailto:adityamwagh@gmail.com}{adityamwagh@gmail.com} \\ \hspace*{29pt} \href{mailto:f2015382@pilani.bits-pilani.ac.in}{f2015382@pilani.bits-pilani.ac.in}}{\href{https://www.linkedin.com/in/waghaditya/}{Linkedin} \\ \hspace*{27pt} \href{https://github.com/ad1tyawagh}{Github}}
+	
+	%-------------------------------------------
+	
+	%
+	%-----------EDUCATION-----------------
+	\section{Education}
+	\justifying
+	\resumeSubHeadingListStart
+	\resumeSubheadingEducation
+	{Birla Institute of Technology and Science (BITS) Pilani}{\textbf{Pilani, India}}
+	{Bachelor of Engineering with Honors in Electronics and Instrumentation}  {Aug 2015 -- Jul 2019} \vspace{1pt} \\
+	%{\small \emph{Thesis}: Internet of Things Integration of Smart Decentralized Battery Management Systems} \vspace{1pt} \\
+	{\small \emph{GPA}: 5.55} \vspace{1pt} \\
+	{\justifying \small \emph{Relevant courses}: Computer Programming, Probability \& Statistics, Neural Networks and Fuzzy Logic, Discrete Mathematics, Digital Signal Processing, Digital Design, Microprocessors and Interfacing, Computer Architecture}
+	
+	%	{\small \emph{GPA(until 6th semester)}: 8.22/10.0 (Cumulative); 9.00/10.0 (Major)} \vspace{2pt} \\
+	%	{\small \emph{Relevant courses}: Digital Design, Microprocessors and Interfacing, C Programming, Computer Architecture,  Operating \\ \hspace*{0pt}Systems, Analog \& Digital VLSI Design, Neural Nets \& Fuzzy Logic, Digital Signal Processing} 
+	%Computer Programming, Computer Architecture \newline Operating Systems, Analog \& Digital VLSI Design, Neural Networks \& Fuzzy Logic, Digital Signal Processing
+	\vspace{-5pt}
+	\resumeSubHeadingListEnd
+	%-------------------------------------------
+	
+	\section{Certifications}
+	\resumeSubHeadingListStart
+	\resumeSubheadingEducation
+	{\href{https://www.coursera.org/account/accomplishments/certificate/KJBZ3XKKYAXM}{Neural Networks and Deep Learning}}{\textbf{Coursera}}
+	{deeplearning.ai}  {August, 2018} \vspace{1pt}
+	\resumeSubHeadingListEnd
+	
+	%-----------RESEARCH EXPERIENCE-----------------
+	\section{Work Experience}
+	\justifying
+	\resumeSubHeadingListStart
+	
+	\resumeSubheading
+	{Integrated Systems Lab}{\textbf{Central Electronics Engineering Research Institute, Pilani}}
+	{Research Assistant}{Jul 2018 -- Dec 2018} 
+	%\vspace{2pt} \\
+	\emph{Project}: Detection of faulty power transmission lines using Region Proposal Convolutional Neural Networks(RCNNs)
+	\resumeItemListStart
+	\resumeSubItemOneArg{Project focused on decreasing costs and safety of inspecting power transmission lines using unmanned drones, instead of manual helicopter inspection.}
+	\resumeSubItemOneArg{Part of a team responsible for annotating a dataset of 8000 RGB and Infrared images of power transmisison cables. Used VIA Image Annotator for annotation.}
+	\resumeSubItemOneArg{Responsible for modelling, training and optimising a Convolutional Neural Network to detect healthy power lines in those images.}
+	\resumeSubItemOneArg{Trained a masked region proposal convolutional neural network having a ResNet-101 and FPN Backbone.}
+	\resumeItemListEnd
+	%	\vspace{-5pt}
+	\resumeSubHeadingListEnd
+	%-------------------------------------------
+	
+%	%
+%	%-----------PROFESSIONAL EXPERIENCE-----------------
+%	\section{Professional Experience}
+%	\resumeSubHeadingListStart	
+%	
+%	\resumeSubheading
+%	{National Textile Corporation}{\textbf{Mumbai, India}}
+%	{Summer Analyst Intern}{May 2017 -- July 2017}
+%	%info about the company
+%	National Textile Corporation is a public sector undertaking, specializing in producing yarn and fabric.
+%	\resumeItemListStart
+%	\resumeSubItemOneArg{Trained in supply chain management and Standard Operating Procedures.}
+%	\resumeSubItemOneArg{Presented a case study on improving the efficiency of inventory management.}
+%	\resumeSubItemOneArg{Assessed financial sustainability of NTC; analyzed non-performing assets.}
+%	\resumeItemListEnd
+%	
+%	\resumeSubheading
+%	{RJ Media \& Adversting}{\textbf{Gurugram, India}}
+%	{Business Development Intern}{May 2016 -- July 2016}
+%	%info about the company
+%	RJ Media \& Advertising is a startup which provides digital marketing and advertising solutions. 
+%	\resumeItemListStart
+%	\resumeSubItemOneArg{Devised new business opportunities and delivered suitable deals to potential clients.}
+%	\resumeSubItemOneArg{Generated the additional revenue of INR 100,000 while improving clients experience.}
+%	\resumeItemListEnd
+%	
+%	\resumeSubHeadingListEnd
+%	%-------------------------------------------
+%	\pagebreak
+	%
+	%-----------PROJECTS-----------------
+	\section{Projects}
+	
+	\resumeSubHeadingListStart
+	
+	\resumeSubItem{Variable Computation in Recurrent Neural Networks (2017)}{
+		\resumeItemListStart
+		\resumeSubItemOneArg{Modified a RNN model to make it learn to vary the amount of computation according to the sequence that they process.} 
+		\resumeSubItemOneArg{Implemented a scheduler for the RNN unit which decides the computation required at the current timestep.}
+		\resumeSubItemOneArg{Reduced the number of operations for bit-level language modelling to around 50\% compared to normal RNN unit.}
+		\resumeItemListEnd
+		
+	\resumeSubItem{Microphone Signal Conditioning System (2017)}{
+		\resumeItemListStart
+		\resumeSubItemOneArg{Designed a signal conditioning circuit for a microphone using OPAMPS.} 
+		\resumeSubItemOneArg{Utilised the condenser microphone as a capacitance in the RC Filter Circuit. }
+		\resumeSubItemOneArg{Interfaced the circuit with the computer using NI-DAQmx data acquisition card and created a UI in LabVIEW to interpret the noisy and filtered signals.}
+		\resumeItemListEnd
+	}
+		\resumeSubItem{Finite Impulse Response filter design using an adjustable window filter  (2017)}{
+		\resumeItemListStart
+		\resumeSubItemOneArg{Implemented an adjustable window function based on the combination of Blackman and Lanczos window.}
+		\resumeSubItemOneArg{Achieved a 75\% better better side-lobe roll off ratio than Lanczos window.}
+		\resumeSubItemOneArg{Denoised an ECG Signal using this filter.}
+		\resumeItemListEnd
+	}
+	
+	}
+%	\resumeSubItem{RISC Processor Design using HDL (2018)}{
+%		\resumeItemListStart
+%		\resumeSubItemOneArg{Designed, programmed and tested 16-bit multi-cycle processor for a given set of instructions.} 
+%		\resumeSubItemOneArg{Followed modular approach for programming the processor and its test bench, by dividing it into sub-modules such as memory, register file, ALU and control unit.}
+%		\resumeItemListEnd
+%	}
+%	\resumeSubItem{Speaker Recognition System (2018)}{
+%		\resumeItemListStart
+%		\resumeSubItemOneArg{Developed a recognition system that identifies the speaker using Mel-frequency cepstral coefficients (MFCCs) extracted from the voice.} 
+%		\resumeSubItemOneArg{Compared the performances of various classifiers like VQ, GMM-UBM, i-Vector and Deep Neural Networks for identifying the speaker.}
+%		\resumeSubItemOneArg{Deduced GMM-UBM and i-Vector were most efficient classifiers for recognition for offline and online data respectively.}
+%		\resumeItemListEnd
+%	}
+%	\resumeSubItem{MOSFET Amplifiers on Cadence (2017)}{
+%		\resumeItemListStart
+%		\resumeSubItemOneArg{Designed and analyzed multi-stage MOSFET amplifiers for maximum gain, bandwidth and gain-bandwidth product using G\textsubscript{m}/I\textsubscript{d} method on Cadence.} 
+%		\resumeSubItemOneArg{Obtained geometry and operating region of each MOSFET using its performance curves.}
+%		\resumeItemListEnd
+%	}
+	
+	\resumeSubHeadingListEnd
+	%-------------------------------------------
+	
+	% 	%
+	% 	%--------RELEVANT COURSES AND ELECTIVES------------
+	% 	\section{Relevant courses and Electives}
+	% 	Digital Design $\cdot$ Microprocessors and Interfacing $\cdot$ Computer Programming $\cdot$ Computer Architecture $\cdot$ Operating Systems $\cdot$ Analog \& Digital VLSI Design $\cdot$  Neural Networks \& Fuzzy Logic $\cdot$ Digital Signal Processing 
+	% 	%-------------------------------------------
+	
+	%
+	%--------POSITIONS OF RESPONSIBILITY----------
+	\section{Positions of Responsibility}
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{Vice-Chairperson}{\emph{Jul 2017 - May 2018}}
+	{IEEE Student Branch, BITS Pilani}{}
+	Appointed as the Vice Chairperson of the IEEE Student Branch at BITS Pilani
+	\resumeItemListStart
+	\resumeSubItemOneArg{Organised IEEE affiliated events like conclaves, workshops and various technical events throughout the year.}
+	\resumeSubItemOneArg{Worked on promoting IEEE Student memberships in the campus by organising membership drives explaining it's benefits.}
+	% 	\resumeSubItemOneArg{Increased the participation in all the events organized by more than 40 percent than last few years.}
+	\resumeSubItemOneArg{Responsible for setting up the IEEE hosted website for the chapter. }
+	\resumeSubItemOneArg{Conceived the organisational hierarchy of the chapter, introducing various managerial and technical posts.}
+	\resumeSubItemOneArg{Authored and published the first issue of IEEE Insight, the monthly newsletter of the chapter.
+	}
+	\resumeItemListEnd
+	%	\vspace{-5pt}
+	\resumeSubheading
+	{Member, Governing Council(GC)}{\emph{Aug 2018 - July 2019}}
+	{Society for Students Mess Services, BITS Pilani}{}
+	Elected as the Mess Representative of the Ranapratap-Ashok Mess which served more than 400 students. Part of the Quality, Health \& Safety Environment(QHSE) committee and the Human Resource committee of the GC.
+	\resumeItemListStart
+	\resumeSubItemOneArg{\textbf{Mess Representative: }{Responsible for sanctioning leaves of the workers, collecting feedback and taking necessary actions.}}
+	\resumeSubItemOneArg{\textbf{QHSE: }{Drafted a QHSE framework for SSMS activities and conducted regular audits every semester.}}
+	\resumeSubItemOneArg{\textbf{HR: }{Responsible for performance appraisals, providing education/medical loans and  managing internal worker conflicts.}}
+	\resumeItemListEnd
+	
+	\resumeSubHeadingListEnd
+%	%-------------------------------------------
+
+	%--------TECHNICAL SKILLS------------
+	\section{Technical Proficiency}
+	\justifying
+	\resumeSubHeadingListStart
+	\resumeSubItem{Development Languages}
+	{Python, C, , C++, MATLAB, Verilog, bash, markdown, \LaTeX}
+	\resumeSubItem{Frameworks and Libraries}
+	{Keras, Tensorflow, OpenCV, Linux, Git}
+	\resumeSubItem{Application Softwares}
+	{MATLAB, Simulink, LabVIEW}
+	\resumeSubHeadingListEnd
+	%-------------------------------------------
+	
+	
+	
+	
+%	%
+%	%--------ACHEIVEMENTS AND AWARDS-----
+%	\section{Achievements and Awards}
+%	\resumeSubHeadingListStart
+%	\resumeSubItem{GRE (2018)}{323 (Q: 170, V: 153)}
+%	%\resumeSubItem{TOEFL (2018)}{104 (R: 26, L: 30, S: 24, W: 24)}
+%	\resumeSubItem{Undergraduate project funding (2018-2019)}
+%	{Received undergraduate research grant of INR 46,000 for the project ``Real-time object detection with UAVs" by BITS Pilani.}
+%	\resumeSubItem{APOGEE project award (2017-2018)}
+%	{Awarded APOGEE project funding of INR 15,000 for the smart locker project at BITS Pilani.}
+%	%\resumeSubItem{JEE Advanced 2015}{Ranked among top 0.3\% of students out of 1.5 million candidates in JEE 2015.}
+%	\resumeSubHeadingListEnd
+	%-------------------------------------------	
+	
+	% 	%   
+	%     %----------REFERENCES-----------
+	%     \section{References}
+	%     \resumeSubHeadingListStart
+	%         \resumeSubItemOneArg{\textcolor{red}{Up to 3 references available on request}}
+	% 	\resumeSubHeadingListEnd
+	
+	% 	%-------------------------------------------
+\end{document}
