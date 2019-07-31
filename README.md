@@ -1,2 +1,1 @@
-# cv
- Repository to manage my CV.
+# Repository to manage my CV.
