@@ -1,23 +1,23 @@
-\documentclass[11pt,a4paper,sans]{moderncv}
+\documentclass[11pt,a4paper,sans]{moderncv} % roman, sans
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 
 % modern themes
-\moderncvstyle{banking}
-\moderncvcolor{red}
+\moderncvstyle{classic} % classic, banking, fancy, oldstyle
+\moderncvcolor{purple} % red, orange, green, blue, purple, burgundy
 \renewcommand{\familydefault}{\sfdefault}
-%\nopagenumbers{}
+\nopagenumbers{}
 
 % character encoding
 \usepackage[utf8]{inputenc}
 
 % adjust the page margins
 \usepackage[margin=0.75in]{geometry}
-%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
-
+\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 \usepackage{import}
+\usepackage[colorlinks=true, unicode, allcolors=violet]{hyperref}
 
-\usepackage[colorlinks=true, unicode, allcolors=blue]{hyperref}
+
 % personal data
 \name{Aditya}{Wagh}
 \title{Curriculum Vitae}                               
@@ -27,7 +27,14 @@
 \email{aditya@adityawagh.ml}                               
 \homepage{https://adityawagh.ml}                         
 % \extrainfo{additional information}
-% \quote{Some quote}                                 
+% \quote{Some quote}
+
+% Social icons
+\social[linkedin]{ad1tyawagh}                        % optional, remove / comment the line if not wanted
+\social[twitter]{ad1tyawagh}                             % optional, remove / comment the line if not wanted
+\social[github]{ad1tyawagh}                              % optional, remove / comment the line if not wanted
+% \social[googlescholar]{googlescholarid}            % optional, remove / comment the line if not wanted
+
 \begin{document}
 
 \makecvtitle
@@ -35,7 +42,7 @@
 \import{sections}{education.tex}
 \import{sections}{experience.tex}
 \import{sections}{projects.tex}
-\import{sections}{technicalskills.tex}
+\import{sections}{skills.tex}
 \import{sections}{achievements.tex}
 \import{sections}{extracurriculars.tex}
 \import{sections}{references.tex}
