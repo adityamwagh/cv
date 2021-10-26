@@ -199,7 +199,7 @@ pythontex-files-*/
 # thmtools
 *.loe
 
-# TikZ & PGF
+# TikZ \& PGF
 *.dpth
 *.md5
 *.auxlock
