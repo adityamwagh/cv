@@ -1,24 +1,38 @@
-\documentclass[11pt,a4paper,sans]{moderncv} % roman, sans
+\documentclass[10pt,a4paper]{moderncv} % roman, sans
+
+% font styling
 \usepackage[T1]{fontenc}
-\usepackage{lmodern}
+% \usepackage{lmodern}
+\usepackage{fontspec}
+\setmainfont{AvenirNextCyr}[
+    Path=./fonts/,
+    Extension = .ttf,
+    UprightFont=*-Thin,
+    BoldFont=*-Medium,
+    ItalicFont=*-Thin,
+    BoldItalicFont=*-Medium
+    ]
+
+% align text
+\usepackage{ragged2e}
 
 % modern themes
 \moderncvstyle{classic} % classic, banking, fancy, oldstyle
-\moderncvcolor{blue} % red, orange, green, blue, purple, burgundy
+\moderncvcolor{purple} % red, orange, green, blue, purple, burgundy
 \nopagenumbers{}
 
 % character encoding
 \usepackage[utf8]{inputenc}
 
 % adjust the page margins
-\usepackage[margin=0.65in]{geometry}
+\usepackage[margin=0.5in]{geometry}
 \setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 \usepackage{import}
 \usepackage[colorlinks=true, unicode, allcolors=gray]{hyperref}
 
 
 % personal data
-\name{Aditya}{Wagh}
+\name{\textbf{Aditya}}{Wagh}
 \title{Curriculum Vitae}
 % \phone[mobile]{+91 74477 93555}
 \homepage{adityamwagh.github.io}
@@ -35,6 +49,7 @@
 
 \makecvtitle
 
+\justifying
 \import{sections/}{education.tex}
 \import{sections/}{experience.tex}
 \import{sections/}{projects.tex}
