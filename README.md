@@ -6,8 +6,9 @@ This repository stores the TeX source of my curriculum vitae.
 ```bash
 
 .
-├── AdityaWagh_CV.pdf
-├── AdityaWagh_CV.tex
+├── cv_aditya_wagh.pdf
+├── cv_aditya_wagh.tex
+├── fonts
 ├── README.md
 └── sections
     ├── achievements.tex
@@ -18,6 +19,5 @@ This repository stores the TeX source of my curriculum vitae.
     ├── references.tex
     └── skills.tex
 ```
-
 
 Feel free to use this template if you like it.
