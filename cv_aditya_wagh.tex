@@ -6,7 +6,7 @@
 %------------------------
 
 % \documentclass[a4paper]{article}
-\documentclass[letterpaper]{article}
+\documentclass[letterpaper, 11pt]{article}
 
 % external packages
 \usepackage[margin=0.5in]{geometry}
@@ -66,7 +66,7 @@
 
 % custom commands
 
-% resume subheading four items
+% resume heading four items
 \newcommand{\resumeHeadingFour}[4]{
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
@@ -75,11 +75,11 @@
     \end{tabular*}\vspace{-5pt}
 }
 
-% resume subheading two items
+% resume heading two items
 \newcommand{\resumeHeadingTwo}[2]{
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & {\small #2} \\
+      \textbf{#1} & \textbf{\small #2} \\
     \end{tabular*}\vspace{-5pt}
 }
 
@@ -120,6 +120,8 @@
 \import{sections/}{technical_skills}
 \import{sections/}{coursework}
 \import{sections/}{projects}
+\import{sections/}{leadership}
+\import{sections/}{references}
 
 % resume ends here
 \end{document}

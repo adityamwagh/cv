@@ -1,0 +1,68 @@
+\section{EXPERIENCE}
+\subsection{Professional}
+\vspace{5pt}
+\cventry{May '17 - Jul '17}{The Ramco Cements Ltd}{Jaggayapeta, India}{}{}{
+    Software Engineering Intern \\
+    ADVISOR: Mr. Chengal Rao \\
+    FOCUS: Full-stack design of an inventory management web-application.}
+
+\vspace{5pt}
+\cventry{May '18 – Jul '18}{Apras Polymers \& Engineering Co.Pvt. Ltd}{Nashik, India}{}{}{
+    Software Engineering Intern \\
+    ADVISOR: Mr. Prakash Dhanokar \\
+    FOCUS: Modern and responsive business website design.}
+
+\vspace{5pt}
+
+\subsection{Academic}
+\vspace{5pt}
+\cventry{Dec '18 - May '19}{Central Electronics Engineering Research Institute }{Pilani, India}{}{}{
+    Undergraduate Research Assistant \\
+    ADVISOR: Dr. Sumeet Saurav \\
+    FOCUS: Convolutional neural network models for orientation-aware object detection}
+
+\vspace{5pt}
+\cventry{Jul '18 - Dec '18}{Central Electronics Engineering Research Institute }{Pilani, India}{}{}{
+    Undergraduate Research Intern \\
+    ADVISOR: Dr. Sumeet Saurav \\
+    FOCUS: Instance segmentation models for real-time power-cable fault detection}
+
+\vspace{5pt}
+\cventry{Aug '17 - Dec '17}{Birla Institute of Technology \& Science, Pilani}{Pilani, India}{}{}{
+    Undergraduate Research Assistant \\
+    ADVISOR: Prof. Anu Gupta \\
+    FOCUS: Design of fault tolerant Static RAM cells.}
+
+??
+
+
+??
+\section{RELEVANT COURSEWORK}
+\cvitem{\textbf{Mathematics}}{
+    Linear Algebra $\cdot$
+    Vector Calculus $\cdot$
+    Differential Equations $\cdot$
+    Probability \& Statistics $\cdot$
+    Discrete Mathematics
+}
+\cvitem{\textbf{Data Science}}{
+    Machine Learning $\cdot$
+    Deep Learning $\cdot$
+    TensorFlow in Practice $\cdot$
+    Mathematics for Machine Learning $\cdot$
+    Neural Networks \& Fuzzy Logic
+}
+\cvitem{\textbf{EECS}}{
+    Control systems $\cdot$
+    Signals \& Systems $\cdot$
+    Digital Signal Processing $\cdot$
+    Digital Electronics $\cdot$
+    Analog Electronics $\cdot$
+    Microprocessors \& Interfacing
+}
+
+??
+\section{ACHIEVEMENTS}
+\cvitem{\textbf{2015}}{Amongst the top 1.5\% students in the India in Joint Entrance Examination - Mains}
+\cvitem{\textbf{2015}}{Amongst the top 5\% students in the India in Joint Entrance Examination - Advanced}
+\cvitem{\textbf{2014}}{Amongst the top 300 students selected for INPhO (Indian National Physics Olympiad)}
